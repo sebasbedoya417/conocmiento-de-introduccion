@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: #3a3d47;
+}
+.contenedor{
+    max-width: 1200px;
+    margin: 5px auto;
+}
+.head{
+    background: #1551a1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 140px;
+    width: 100%;
+    
+}
+.menu{
+    display: flex;
+    margin-right: 55px;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu a{
+    display: flex;
+    padding: 25px 25px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.uno{
+    border: solid;
+    color: white;
+    text-align: center;
+    border-width: 3px;
+}
+
+.fondo{
+    padding: 0;
+    width: 100%;
+}
+
+.titulo{
+    color: #ff7600;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+    cursor: default;
+}
+.contenedor2{
+    position: relative;
+    bottom: 9px;
+    max-width: 1200px;
+    margin:auto;
+    background-color: #fff;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    height: 470px;
+}
+
+.tarjetas .card{
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    border: solid 2px;
+    overflow: auto;
+    cursor: default;
+}
+
+.tarjetas .card .contenido img{
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+.servicio{
+    background-color: #1551a1;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    padding: 10px;
+}
+
+.contenedor3{ 
+    position: relative;
+    bottom: 9px;
+    max-width: 1200px;
+    margin: auto;
+    background: #062348;
+
+ 
+}
+.head2{
+    background: #062348;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 160px;
+    width: 100%;
+   
+}
+
+.menu2{
+    position: relative;
+    right: 300;
+    margin-right: 100px;
+    margin-left: 30px;
+    text-align: center;    
+}
+
+
+.seguir{
+   position: relative;
+    color: #fff;
+    right: 30px;
+   
+    
+}
+.btn{
+    position: relative;
+    top: 2px;
+    background-color: #1551a1;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    border-radius:4px;
+}
